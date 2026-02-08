@@ -128,35 +128,6 @@ This skill gives your AI coding tool practical App Intents expertise. It can:
 
 - Integrate with Apple Intelligence through assistant schemas and the `@AppIntent` macro
 
-## What Makes This Skill Different
-
-**Practitioner-focused, not just a reference.** Goes beyond API surface to cover architecture decisions, common pitfalls, and real-world patterns.
-
-**iOS 26+ modern-first.** Covers interactive snippets, `SnippetIntent`, `@ComputedProperty`, `@DeferredProperty`, `SupportedModes`, `UndoableIntent`, Visual Intelligence, and Swift Package support — all introduced at WWDC 2025.
-
-**Action-oriented.** Task-based checklists that agents can follow step by step, with complete code examples from Apple's WWDC sessions.
-
-**Non-opinionated.** Focuses on framework correctness and Apple's recommended patterns, not forcing an architecture or project structure.
-
-## Skill Structure
-
-```
-app-intents-expert-skill/
-  SKILL.md                              # Entry point — checklists, decision trees, routing
-  references/
-    intent-fundamentals.md              # AppIntent protocol, parameters, perform, results
-    entities-and-queries.md             # AppEntity, AppEnum, queries, ComputedProperty, DeferredProperty
-    siri-integration.md                 # Siri phrases, SiriTipView, dialog, assistant schemas
-    shortcuts-provider.md               # AppShortcutsProvider, App Shortcuts, phrases, Spotlight
-    spotlight-indexing.md               # IndexedEntity, property indexing keys, Spotlight donation
-    apple-intelligence.md               # @AppIntent macro, assistant schemas, on-screen entities
-    interactive-snippets.md             # SnippetIntent, result/confirmation snippets, buttons, toggles
-    intent-driven-architecture.md       # Structuring apps around intents, sharing logic, navigation
-    migration-from-sirikit.md           # Moving from INIntent/SiriKit to App Intents
-    testing-intents.md                  # Unit testing strategies, dependency injection, mocking
-    common-pitfalls.md                  # Build-time errors, runtime gotchas, debugging techniques
-```
-
 ## Contributing
 
 Contributions are welcome! This repository follows the [Agent Skills open format](https://agentskills.io/home), which has specific structural requirements.
@@ -168,10 +139,6 @@ Please read [CONTRIBUTING.md](/CONTRIBUTING.md) for:
 - Format requirements and quality standards
 
 - Pull request process
-
-## About the Author
-
-Created by [Rudrank Riyam](https://rudrank.com), a WWDC '19 Scholar and Apple platform developer. Rudrank is the author of the [App Store Connect CLI](https://github.com/rudrankriyam/App-Store-Connect-CLI) and its [companion agent skills](https://github.com/rudrankriyam/app-store-connect-cli-skills), and the [Foundation Models Framework Example](https://github.com/rudrankriyam/Foundation-Models-Framework-Example) with 900+ stars.
 
 ## Resources
 
