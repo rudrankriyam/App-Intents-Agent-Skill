@@ -1,0 +1,10 @@
+{
+  "name": "app-intents-expert",
+  "description": "Expert App Intents guidance for building Siri, Shortcuts, Spotlight, Apple Intelligence, and interactive snippet integrations on iOS 26+.",
+  "skills": [
+    {
+      "name": "app-intents-expert-skill",
+      "path": "app-intents-expert-skill"
+    }
+  ]
+}
