@@ -1,8 +1,6 @@
 # App Intents Expert Skill
 
-Expert guidance for any AI coding tool that supports the [Agent Skills open format](https://agentskills.io/home) — building intents, entities, queries, Siri integration, Shortcuts, Spotlight, Apple Intelligence, and interactive snippets for iOS 26+.
-
-This skill distills practical App Intents expertise into actionable, concise references for agents, code generation, and code review workflows.
+Building intents, entities, queries, Siri integration, Shortcuts, Spotlight, Apple Intelligence, and interactive snippets for iOS 26+. This skill distills App Intents information into actionable, concise references for agents, code generation, and code review workflows.
 
 ## Who this is for
 
